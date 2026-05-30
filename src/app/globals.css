@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+@theme {
+  /* === Color tokens — locked === */
+  --color-bg: #0a0a0a;
+  --color-surface: #111111;
+  --color-gold: #c8a96e;
+  --color-ember: #e05a2b;
+  --color-text: #f5f0e8;
+  --color-muted: #888880;
+  --color-ghost: #c8a96e08;
+
+  /* === Typography === */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+
+  /* === Radius === */
+  --radius-card: 4px;
+  --radius-button: 2px;
+}
+
+/* ============================================
+   Reset + base
+   ============================================ */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-bg);
+}
+
+/* ============================================
+   Lenis
+   ============================================ */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ============================================
+   Utility classes
+   ============================================ */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* ============================================
+   Ken Burns — hero photo
+   ============================================ */
+@keyframes kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.08) translate(-1%, -1%);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+.kenburns {
+  animation: kenburns 18s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* ============================================
+   Infinite marquee — skills
+   ============================================ */
+@keyframes marquee-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee-x 32s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ============================================
+   Ghost watermark
+   ============================================ */
+.ghost-watermark {
+  font-family: var(--font-display);
+  color: var(--color-gold);
+  opacity: 0.05;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  user-select: none;
+  pointer-events: none;
+  line-height: 0.85;
+}
+
+/* ============================================
+   Magnetic button — desktop pointer only
+   ============================================ */
+@media (pointer: fine) {
+  .magnetic-enabled {
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
+
+/* ============================================
+   Hero SplitText perspective wrapper
+   ============================================ */
+.split-perspective {
+  perspective: 1000px;
+}
+
+.split-line .word {
+  display: inline-block;
+  transform-origin: 50% 50%;
+}
+
+/* ============================================
+   Underline link
+   ============================================ */
+.underline-link {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform-origin: right center;
+  transform: scaleX(1);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.underline-link:hover::after {
+  transform-origin: left center;
+  transform: scaleX(0);
+}
+
+/* ============================================
+   Hide scrollbar utility
+   ============================================ */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
