@@ -1,0 +1,90 @@
+# Robel Lemma — Full Portfolio Content
+
+> Product Manager, founder, and digital strategist based in San Diego, CA. UCSD Class of 2025. Founded two companies and built an audience of 10M+ cross-platform views.
+
+## Identity
+
+- Name: Robel Lemma
+- Title: Product Manager · Founder · Digital Strategist
+- Location: San Diego, California, USA
+- Education: B.S. Business / Managerial Economics, University of California San Diego (UCSD), Class of 2025
+- Email: robelblemma@gmail.com
+- Phone: (858) 342-0231
+- Resume: https://robellemma.com/s/Resume-Robel-Lemma.pdf
+- Primary site: https://robellemma.com
+
+## Positioning
+
+Robel is a PM and founder who built two ventures while completing his undergraduate degree at UC San Diego. He approaches product management with founder-level discipline: bias for action, ROI thinking, customer obsession, and a measurement-first operating cadence. He is open to Product Manager roles, advisory engagements, and venture conversations.
+
+## Ventures
+
+### Lemma Limited
+- Role: Founder & CEO
+- Stage: Operating
+- Headline metric: 10M+ cross-platform views
+- URL: https://lemmalimited.com
+- Description: A media startup built on the bet that short-form storytelling, treated like product, can move audiences at scale — with founder-level discipline replacing studio-level overhead. Operates a weekly cadence: Monday analytics review, Tuesday–Thursday production against documented hypotheses, Friday ship-and-measure. Cross-platform native-first distribution. Used Notion for backlog, GA4 plus native analytics for measurement, and a lightweight CRM approach to track most-engaged accounts.
+
+### PYR Studios (Play Your Role Studios)
+- Role: Co-Founder
+- Location: Chula Vista, California
+- Description: A content and strategy hub serving artists, musicians, and brands across Southern California. Positioned as an operating partner rather than an agency. Built on a listening tour with regional artists, managers, and brand owners that identified trust — not tools or time — as the core gap. Operates as a multi-stakeholder PM environment: different users with different goals sharing shared infrastructure.
+
+## Skills
+
+### Product & UX
+Figma, Productboard, Jira, Miro, Notion, Roadmapping, Persona Development, PRD Writing, Agile/Scrum
+
+### Analytics
+SQL, Excel, Google Analytics 4, A/B Testing, Data Analysis, CRM Segmentation, Market Research
+
+### Marketing & Growth
+SEO (Google Search Console, SEMrush), Email Marketing (Mailchimp, HubSpot), Social Analytics
+
+### Core
+User Research, Product Strategy, Go-to-Market Planning, Cross-Functional Collaboration, Customer Journey Mapping
+
+## Case Study — Lemma Limited
+
+Problem: Most short-form media never compounds. Creators publish without a hypothesis, get numbers back without a debrief, and make the next post the same way as the last one. The gap was operating discipline — not talent or distribution.
+
+Research: Manual audience mapping across comments, save rates, watch-through curves, and share velocity. Treated each platform as a distinct market. Documented every test in a simple operating log capturing what was tried, what was expected, and what actually happened. Within 90 days could predict performance bands inside ±25%.
+
+Execution: Weekly operating cadence. Every brief required three things: target audience, emotional takeaway, testable hypothesis. Killed about a third of backlog and doubled hit rate. Native-first cuts per platform with calibrated posting windows per audience timezone. Built a proto-fan-base CRM of most-engaged accounts.
+
+Results: 10M+ cross-platform views. Repeatable operating engine. Documented playbook. Loyal returning audience. Inbound conversations with brands and artists who wanted to plug into the system.
+
+Learnings:
+1. Pick a smaller wedge earlier — generalist content is forgiving in month one and brutal by month six.
+2. Build the measurement system on day one — clean metrics layer compounds.
+3. Treat distribution as a product surface — platforms are distinct products with distinct users, not pipes.
+
+## Case Study — PYR Studios
+
+Problem: Southern California is dense with artists, independent musicians, and emerging brands, but short on the operating layer that turns raw talent into consistent output. Indie-tier talent was either DIYing and burning out, or getting priced into agency contracts that didn't fit their stage.
+
+Research: Pre-launch listening tour with artists, managers, and brand owners across the region testing one hypothesis: was the gap in tools, in time, or in trust? Trust came up every time. Most clients had been burned by people who didn't understand their work or treated relationships as transactional.
+
+Execution: Co-founded PYR with intentional Chula Vista positioning — close enough to San Diego and Tijuana to draw from both communities, far enough to be its own scene. Defined the service shape, sat in on client kickoffs, helped formalize working rhythms. Positioned as operating partner, not agency.
+
+Results: Recognizable Chula Vista–based studio operating across artists, musicians, and brands. Highest signal of success: clients who came in for one engagement stayed for the next. Strong retention as a lagging indicator of model fit.
+
+Learnings:
+1. Customer research compounds — the listening tour was the highest ROI investment in the business; every later decision got cheaper because of it.
+2. Positioning is a constraint, not a tagline — choosing "operating partner" over "agency" ruled out clients, services, and revenue shapes, which was the point.
+3. Multi-stakeholder PM is its own skill — running a hub is closer to PM in a platform business than anything else.
+
+## What Robel is looking for
+
+- Product Manager roles where he can apply founder operating discipline at scale
+- Advisory engagements with founders building media, creator, or community-led businesses
+- Venture conversations and partnerships in the SoCal / cross-border SD-TJ corridor
+
+## Tone & values
+
+- Bias for action, with measurement
+- Customer research as the highest-ROI activity
+- Disciplined "no" as a positioning tool
+- Founder humility — operators who also ship
+- Cross-functional, cross-platform thinking
