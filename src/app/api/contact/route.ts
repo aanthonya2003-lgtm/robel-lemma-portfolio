@@ -107,7 +107,7 @@ Sent: ${new Date().toUTCString()}
     const { data, error } = await resend.emails.send({
       from: CONTACT_FROM,
       to: [CONTACT_TO],
-      replyTo: email,
+      reply_to: email,
       subject: `[robellemma.com] ${subject}`,
       html,
       text,
